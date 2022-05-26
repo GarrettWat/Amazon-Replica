@@ -8,17 +8,57 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <section>
-        <h1 style = "position:absolute; left:750px; top:300px" class="mainbox"> Sign In</h1>
-        <h5 style = "position:absolute; left:750px; top:350px"> Email(phone or mobile accounts)</h5>
-  
-    <section>
-        <h1 style = "position:absolute; left:750px; top:380px" class="mainbox"> Password</h1>
-    </section>
-    <section>
-        <input type="text" placeholder=" Enter Email" class="inp">
-        <input type="text" placeholder=" Enter Password" class="in">
-    </section>  
-    <h5 style = "position:absolute; left:950px; top:410px"><a href = "https://www.amazon.com/ap/forgotpassword?openid.pape.max_auth_age=900&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0"> Email(phone or mobile accounts)</a></h5>
+
+    <div class="container">
+        <img class= "img"src="/Images/a_generic_white_10_us_noto_email_v2016_us-main._CB627448186_.png" alt="Amazon">
+        <div class="sign-in">
+            <h2 class="sign">Sign In</h2>
+            <form>
+                <div class="emailbox">
+                    <label class="email" for="Email">Email:</label><br>
+                    <input type="text" id="Email"><br>
+                </div>  
+                <div>
+                    <span> <label for="Password">Password:</label></span>
+                    <a class="password" href="#">Forgot Password</a>
+                </div>              
+                <input type="text" id="Password">
+            </form>
+
+             <div class="button">
+                <button style="height: 30px; width:375px; background-color: orange;">Continue</button>
+             </div>
+             <div class="help">
+                <a class="help"href="#">Need Help?</a>
+             </div>
+        </div> 
+        
+        
+        </div>
+        <div class="lines">
+           
+            <span class="left-line" style="border-top:1px solid black;height:10px;width:150px; display: inline-block;"></span>
+             <span style="display:inline-block"><p class="new"> New to Amazon?</p></span>
+            <span style="border-top:1px solid black;height:10px;width:150px; display: inline-block;"></span>
+            
+        </div>
+        <div class="bottom-button">
+            <button style="height: 30px; width:350px; background-color: gray;">Create your Amazon account.</button>
+
+        </div>
+        <div>
+            <div class="line">
+                <span style="border-top:1px solid black;height:10px;width:1915px;display:inline-block;"></span>
+            </div>
+            <div class="bottom-text">
+                <a href="#" class="Co"> Conditions of use</a>
+                <a href="#" class="Co2"> Privacy Policy</a>
+                <a href="#" class="Co3"> Help</a>
+            </div>
+        </div>
+
+        
+    </div>
+
 </body>
-</html>
+</html> 

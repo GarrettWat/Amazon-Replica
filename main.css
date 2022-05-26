@@ -1,9 +1,108 @@
 
 body{
-    background-color: rgb(241, 241, 241);
+    background-color: white;
+    text-align: center;
 }
 .mainbox{
     font-size: 35px;
 
 }
+/* .inp{
+    width:20%;
+    height: 30px;
+    border:2px solid #000000 ;
+    border-radius:4px;
+    margin: 380px 0;
+    margin-left: 740px;
+    outline:none;
+    padding:8px;
+    box-sizing:border-box;
+    font-size: 20px;
+    text-align: center;
+  }
+  .in{
+    width:20%;
+    height: 3px;
+    border:2px solid black ;
+    border-radius:1px;
+    margin-bottom: 500px;
+    margin-left: 400px; 
+    padding:10px;
+    box-sizing:border-box;
+    font-size: 20px;
+    text-align: center;
+  }*/
+  .container{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+  } 
 
+  .sign-in{
+    width: 400px;
+    text-align: center;
+    border: 1px solid black;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: %;
+    height: 275px;
+  }
+  input{
+    width: 90%;
+
+  }
+  .password{
+    padding-left: 170px;
+  }
+.button{
+  color: orange;
+  padding-top: 15px;
+}
+.email{
+  padding-right: 300px;
+}
+.emailbox{
+  padding-bottom: 30px;
+}
+.sign{
+
+  padding-right: 280px;
+}
+.help{
+  padding-top: 15px;
+  padding-right: 140px;
+}
+.line{
+  padding-top: 150px;
+}
+.bottom-button{
+  padding-top: px;
+  padding-left: 25px;
+}
+
+.Co{
+  padding-right: 10px;
+}
+.Co2{
+  padding-right: 10px;
+}
+.bottom-text{
+  padding-right: 10px;
+}
+/* .left-line{
+ 
+} */
+.lines{
+  width: 100%;
+  padding-top: 30px;
+}
+.new{
+  margin-left: 5px;
+  margin-right: 5px;
+}
+/* .left-line::after{
+  content: "----------";
+} */
+.img{
+  padding-top: 1000px;
+}
